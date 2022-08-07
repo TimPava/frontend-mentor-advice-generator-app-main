@@ -12,7 +12,7 @@ html > body {
     overflow: hidden;
 }
 
-.container {
+.wrapper {
     position: relative;
     top: 50%;
     left: 50%;
@@ -53,6 +53,7 @@ html > body {
     left: 50%;
     top: 92%;
     transform: translateX(-50%);
+    color: hsl(150, 100%, 66%);
     background-color: hsl(150, 100%, 66%);
     padding: 20px;
     border: 0;
@@ -96,12 +97,6 @@ footer .attribution a:hover {
     color: hsl(193, 38%, 86%);
     transition: ease-in 0.5s;
 }
-
-@media only screen and (max-width: 1200px) {
-    #results > p {
-      font-size: 20px;
-    }
-  }
 
 @media only screen and (max-width: 1200px) {
     #results > p {
