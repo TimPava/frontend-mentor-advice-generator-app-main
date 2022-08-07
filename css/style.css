@@ -12,14 +12,14 @@ html > body {
     overflow: hidden;
 }
 
-.wrapper {
+.container {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 35%;
     border-radius: 15px;
-    padding: 50px;
+    padding: 60px;
     background-color: hsl(217, 19%, 24%);
 }
 
@@ -36,16 +36,15 @@ html > body {
     position: relative;
     top: 20%;
     left: 50%;
-    padding: 40px;
     transform: translateX(-50%);
 }
 
 #results > p {
     font-size: 28px;
     font-weight: 800;
+    padding: 40px;
     color: hsl(193, 38%, 86%);
     text-align: center;
-    padding-bottom: 20px;
 }
 
 .btn {
@@ -71,7 +70,7 @@ html > body {
     top: 75%;
     left: 50%;
     transform: translateX(-50%);
-    padding: 10px;
+    padding: 20px;
 }
 
 footer {
